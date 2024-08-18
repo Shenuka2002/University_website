@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="coursescss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- -------------HEADER------------   -->
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/white3.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- ----------ABOUT US CONTENT------------ -->
+    <section id="about-container">
+      <div class="about-img">
+        <img src="images/about2.png" alt="">
+      </div>
+      <div class="about-text">
+        <h2>
+          Welcome to Egale University, Enhance your skills with best courses.
+        </h2>
+        <p>
+          
+          The Campus continues to improve the quality and validity of its awarded Diploma programmes with the collaboration of International Educational Institutes.  
+          As a private campus, we are committed to creating an inclusive and welcoming environment for students from diverse backgrounds.</p>
+  
+        <div class="about-fe">
+          <img src="images/fe1.png" alt="">
+          <div class="fe-text">
+            <h5>12+ Courses</h5>
+            <p>
+              You can start and finish one of these popular courses in under our site
+            </p>
+          </div>
+        </div>
+        <div class="about-fe">
+          <img src="images/fe2.png" alt="">
+          <div class="fe-text">
+            <h5>Lifetime Access</h5>
+            <p>
+              You can start and finish one of these popular courses in under our site
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Our MISSON & VISSION</h1>
+		<div class="fea-base">
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>OUR MISSION</h3>
+				<p>
+					To develop globally competitive and responsible graduates that businesses demand, working in synergy with all our stakeholders and contributing to our society.
+				</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>OUR VISSION</h3>
+				<p>
+					To be Sri Lanka’s best-performing graduate school and to be recognized internationally.
+				</p>
+			</div>
+		</div>
+	</section>
+<!-- Trust section starts from here -->
+  <section id="trust">
+		<h1>Trusted By</h1>
+		<div class="trust-img">
+			<img src="images/trust1.png" alt="">
+			<img src="images/trust2.jpeg" alt="">
+			<img src="images/trust3.png" alt="">
+			<img src="images/trust4.png" alt="">
+			<img src="images/trust5.jpeg" alt="">
+			<img src="images/trust6.jpeg" alt="">
+		</div>
+	</section>
+    <!-- -----------FOOTER----------  -->
+    <footer>
+      <div class="container">
+          <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email:eaglemount@gmail.com</p>
+            <p>Phone:033 456555</p>
+            <p>Address:12/A,gallroad,<br>colombo</p>
+          </div>
+          <div class="footer-content">
+              <h3>Quick Links</h3>
+               <ul class="list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="course.html">Courses</a></li>
+                  <li><a href="contact.html">Apply Now</a></li>
+               </ul>
+          </div>
+          <div class="footer-content">
+              <h3>Follow Us</h3>
+              <ul class="social-icons">
+                <a href="https://www.instagram.com/eagleuniversity?igsh=aW1reHNka3MzbDhv" class="fa fa-instagram"></a>
+                <a href="https://web.facebook.com/eagleuniversity" class="fa fa-facebook"></a>
+                <a href="https://www.youtube.com/@EagleUniversity" class="fa fa-youtube"></a>
+                <a href="https://x.com/university_ge?t=RUU7sD34XlWlUBLT0RM-Vw&s=35" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/company/eagle-u" class="fa fa-linkedin"></a>
+              </ul>
+              </div>
+      </div>
+      <div class="bottom-bar">
+          <p>&copy; 2024 Eagle mountain university . All rights reserved</p>
+      </div>
+  </footer>
+  </section>
+
+  <!-- <! ---------JavaScript for Toggle Menu ---------  > -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+
+</body>
+</html>
